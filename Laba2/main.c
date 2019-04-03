@@ -9,10 +9,10 @@ int main()
 
 	printf_s("eps=\n");
 	scanf_s("%f", &eps);
-	s = 0.0;
 	sign = 1;
 	i = 2;
 	a = 1.5;
+	s = 1.5;
 	
 	while (a > eps)
 	{
