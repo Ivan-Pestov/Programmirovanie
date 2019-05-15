@@ -9,6 +9,11 @@ int main()
 	int F=1;
 	for (i = 0; i < N; i++)
 		scanf_s("%d", &x[i]);
+	if (x[0] = 1)
+	{
+		printf("false\n");
+		return 0;
+	}
 	q = (float)x[1] / (float)x[0];
 	for (i = 0; i < N-1; i++)
 	{
